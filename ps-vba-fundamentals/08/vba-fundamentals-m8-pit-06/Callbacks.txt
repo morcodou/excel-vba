@@ -1,0 +1,88 @@
+'Callback for customUI.onLoad
+Sub cui_onLoad(ribbon As IRibbonUI)
+End Sub
+
+'Callback for rxbtnStatic onAction
+Sub btn_onAction(control As IRibbonControl)
+End Sub
+
+'Callback for rxbtnDynamic getLabel
+Sub btn_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnDynamic getSize
+Sub btn_getSize(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnDynamic getScreentip
+Sub btn_getScreentip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtnDynamic getSupertip
+Sub btn_getSupertip(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkVisible getPressed
+Sub chk_getPressed(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxchkVisible onAction
+Sub chk_onAction(control As IRibbonControl, pressed As Boolean)
+End Sub
+
+'Callback for rxlblLabel getEnabled
+Sub lbl_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxlblLabel getVisible
+Sub lbl_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditBox getEnabled
+Sub edt_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditBox getText
+Sub edt_getText(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditBox getVisible
+Sub edt_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxedtEditBox onChange
+Sub edt_onChange(control As IRibbonControl, text As String)
+End Sub
+
+'Callback for rxcboIcon getEnabled
+Sub cbo_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboIcon getItemCount
+Sub cbo_getItemCount(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboIcon getItemLabel
+Sub cbo_getItemLabel(control As IRibbonControl, index As Integer, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboIcon getVisible
+Sub cbo_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxcboIcon onChange
+Sub cbo_onChange(control As IRibbonControl, text As String)
+End Sub
+
+'Callback for rxbtn_Dynamic getEnabled
+Sub btn_getEnabled(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtn_Dynamic getImage
+Sub btn_getImage(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for rxbtn_Dynamic getVisible
+Sub btn_getVisible(control As IRibbonControl, ByRef returnedVal)
+End Sub
+

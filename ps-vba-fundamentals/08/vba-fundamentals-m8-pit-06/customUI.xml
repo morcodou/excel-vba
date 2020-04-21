@@ -1,0 +1,77 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui"
+          onLoad="cui_onLoad">
+  <ribbon startFromScratch="true">
+    <tabs>
+      <tab id="rxtabTab"
+           label="Tab Name">
+        <group id="rxgrpGroup"
+               label="Group Name">
+          <button id="rxbtnStatic"
+                  imageMso="HappyFace"
+                  label="Static Button"
+                  size="large"
+                  onAction="btn_onAction"/>
+          <button id="rxbtnDynamic"
+                  imageMso="Calculator"
+                  getLabel="btn_getLabel"
+                  getSize="btn_getSize"
+                  getScreentip="btn_getScreentip"
+                  getSupertip="btn_getSupertip"
+                  onAction="btn_onAction"/>
+        </group>
+        <group id="rxgrpDynamic"
+               label="Dynamic Group">
+          <box id="rxbox1"
+               boxStyle="vertical">
+            <checkBox id="rxchkVisible"
+                      label="Visible"
+                      getPressed="chk_getPressed"
+                      onAction="chk_onAction"/>
+            <checkBox id="rxchkEnabled"
+                      label="Enabled"
+                      getPressed="chk_getPressed"
+                      onAction="chk_onAction"/>
+            <checkBox id="rxchkLarge"
+                      label="Large"
+                      getPressed="chk_getPressed"
+                      onAction="chk_onAction"/>
+          </box>
+          <box id="rxbox2"
+               boxStyle="vertical">
+            <labelControl id="rxlblLabel"
+                          label="Button Label:"
+                          getEnabled="lbl_getEnabled"
+                          getVisible="lbl_getVisible"/>
+            <editBox id="rxedtEditBox"
+                     sizeString="wwwwwwwwwwwwww"
+                     getEnabled="edt_getEnabled"
+                     getText="edt_getText"
+                     getVisible="edt_getVisible"
+                     onChange="edt_onChange"/>
+            <comboBox id="rxcboIcon"
+                      label="Icon"
+                      screentip="Icon"
+                      supertip="Select an icon for the dynamic button."
+                      getEnabled="cbo_getEnabled"
+                      getItemCount="cbo_getItemCount"
+                      getItemLabel="cbo_getItemLabel"
+                      getItemScreentip="cbo_getItemScreentip"
+                      getItemSupertip="cbo_getItemSupertip"
+                      getVisible="cbo_getVisible"
+                      onChange="cbo_onChange"/>
+          </box>
+          <box id="rxbox3"
+               boxStyle="vertical">
+            <button id="rxbtn_Dynamic"
+                    getEnabled="btn_getEnabled"
+                    getImage="btn_getImage"
+                    getLabel="btn_getLabel"
+                    getSize="btn_getSize"
+                    getVisible="btn_getVisible"
+                    onAction="btn_onAction"/>
+          </box>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

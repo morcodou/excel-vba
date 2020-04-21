@@ -1,0 +1,90 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon startFromScratch="true">
+    <tabs>
+      <tab id="rxtabTab"
+           label="Tab Name">
+        <group id="rxgrpGroupA"
+               label="No Boxes">
+          <button id="rxbtnAA"
+                  label="Button AA"
+                  size="large"
+                  imageMso="HappyFace"/>
+          <button id="rxbtnAB"
+                  label="Button AB"
+                  size="large"
+                  imageMso="HappyFace"/>
+          <button id="rxbtnAC"
+                  label="Button AC"
+                  size="large"
+                  imageMso="HappyFace"/>
+          <button id="rxbtnA1"
+                  label="Button A1"
+                  imageMso="HappyFace"/>
+          <button id="rxbtnA2"
+                  label="Button A2"
+                  imageMso="HappyFace"/>
+          <button id="rxbtnA3"
+                  label="Button A3"
+                  imageMso="HappyFace"/>
+        </group>
+        <group id="rxgrpGroupB"
+               label="Horizontal">
+          <box id="rxboxH1"
+               boxStyle="horizontal">
+              <button id="rxbtnHA"
+                      label="Button HA"
+                      imageMso="HappyFace"/>
+              <button id="rxbtnHB"
+                      label="Button HB"
+                      imageMso="HappyFace"/>
+          </box>
+          <box id="rxboxH2"
+               boxStyle="horizontal">
+              <button id="rxbtnHC"
+                      label="Button HC"
+                      imageMso="HappyFace"/>
+              <button id="rxbtnH1"
+                      label="Button H1"
+                      imageMso="HappyFace"/>
+          </box>
+          <box id="rxboxH3"
+               boxStyle="horizontal">
+              <button id="rxbtnH2"
+                      label="Button H2"
+                      imageMso="HappyFace"/>
+              <button id="rxbtnH3"
+                      label="Button H3"
+                      imageMso="HappyFace"/>
+          </box>
+        </group>
+        <group id="rxgrpGroupC"
+               label="Vertical">
+          <box id="rxboxV1"
+               boxStyle="vertical">
+              <button id="rxbtnVA"
+                      label="Button VA"
+                      imageMso="HappyFace"/>
+              <button id="rxbtnVB"
+                      label="Button VB"
+                      imageMso="HappyFace"/>
+              <button id="rxbtnVC"
+                      label="Button VC"
+                      imageMso="HappyFace"/>
+          </box>
+          <box id="rxboxV2"
+               boxStyle="vertical">
+              <button id="rxbtnV1"
+                      label="Button V1"
+                      imageMso="HappyFace"/>
+              <button id="rxbtnV2"
+                      label="Button V2"
+                      imageMso="HappyFace"/>
+              <button id="rxbtnV3"
+                      label="Button V3"
+                      imageMso="HappyFace"/>
+          </box>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
